@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "foo-is-truthy": {
+      "given": "$",
+      "then": {
+        "field": "foo",
+        "function": "truthy"
+      }
+    }
+  }
+}
