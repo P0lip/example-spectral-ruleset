@@ -1,10 +1,14 @@
 {
+  "functions": ["min"],
   "rules": {
-    "foo-is-truthy": {
+    "valid-foo-value": {
       "given": "$",
       "then": {
         "field": "foo",
-        "function": "truthy"
+        "function": "min",
+        "functionOptions": {
+          "value": 1
+        }
       }
     }
   }
